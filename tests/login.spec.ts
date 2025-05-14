@@ -9,6 +9,11 @@ test.use({
 
 test("Login to application with first user", async ({ loggedInPage }) => {
   const page = loggedInPage;
+
+  // TypeScript type error - explicit wrong type assignment
+  const pageUrl: number = "https://example.com"; // Type error: string can't be assigned to number
+  console.log(`Current URL is ${pageUrl}`); // Use the variable to avoid ESLint unused var error
+
   await page.getByRole("img", { name: "" }).click();
   await page.getByRole("link", { name: "Profile and Settings" }).click();
   await expect(page).toHaveURL(/.*user-preferences/);
