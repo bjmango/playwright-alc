@@ -8,6 +8,7 @@ test.use({
 });
 
 test("Login to application with first user", async ({ loggedInPage }) => {
+  const unusedVariable = "This will trigger a linting warning";
   const page = loggedInPage;
   await page.getByRole("img", { name: "" }).click();
   await page.getByRole("link", { name: "Profile and Settings" }).click();
