@@ -29,7 +29,7 @@
     "typescript": "^5.8.3"
   },
   "lint-staged": {
-    "*.{ts,mjs}": [
+    "*.{ts,js}": [
       "prettier --write",
       "eslint --fix",
       "eslint --max-warnings 0"
