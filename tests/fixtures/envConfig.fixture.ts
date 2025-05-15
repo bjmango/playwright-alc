@@ -1,8 +1,6 @@
 import { test as base } from "@playwright/test";
 import { loadEnvConfig } from "../../config/loadEnv";
-interface EnvConfig {
-  [key: string]: string | number | boolean | undefined | object;
-}
+import { EnvConfig } from "../../config/envConfig.types";
 
 export const test = base.extend<{
   envConfig: EnvConfig;
