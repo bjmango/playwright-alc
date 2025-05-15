@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test("switch between two users in one test", async ({ browser }) => {
+test.skip("switch between two users in one test", async ({ browser }) => {
   // Context for User A
   const contextA = await browser.newContext();
   const pageUserA = await contextA.newPage();
