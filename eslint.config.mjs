@@ -6,6 +6,7 @@ import playwrightPlugin from "eslint-plugin-playwright";
 import prettierPlugin from "eslint-plugin-prettier";
 import prettierConfig from "eslint-config-prettier";
 
+/** @type {import('eslint').Linter.FlatConfig[]} */
 export default [
   eslint.configs.recommended,
   {
@@ -32,7 +33,6 @@ export default [
       "@typescript-eslint/no-unused-vars": ["error", { argsIgnorePattern: "^_" }],
     },
   },
-  // Playwright-specific rules for test files
   {
     files: ["**/*.spec.ts", "**/tests/**/*.ts", "**/fixtures/**/*.ts"],
     plugins: {
@@ -40,7 +40,7 @@ export default [
     },
     languageOptions: {
       globals: {
-        ...globals.jest, // Playwright tests use similar globals to Jest
+        ...globals.jest,
       },
     },
     rules: {
@@ -53,7 +53,6 @@ export default [
       "playwright/max-nested-describe": ["warn", { max: 3 }],
     },
   },
-  // Prettier configuration
   {
     files: ["**/*.ts", "**/*.js"],
     plugins: {
