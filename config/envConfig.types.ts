@@ -175,4 +175,6 @@ export interface InternalToolAccount {
   email: string;
   baseUrl: string;
   userId: string;
+  licensePermissionsPageUrl: string;
+  planPermissionsPageUrl: string;
 }
