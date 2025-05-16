@@ -7,11 +7,11 @@ const username = envConfig.internalToolAccount?.email || "";
 const password = process.env.DEFAULT_PASSWORD || "123qweASD";
 const licensePermissionsPageUrl = envConfig.internalToolAccount?.licensePermissionsPageUrl || "";
 const licenseTypes = [
-  // "Collaborator",
-  // "Professional",
-  // "Full Access",
-  // "Stakeholder",
-  // "Full Access - Alchemer Workflow",
+  "Collaborator",
+  "Professional",
+  "Full Access",
+  "Stakeholder",
+  "Full Access - Alchemer Workflow",
   "Professional - Alchemer Workflow",
 ];
 
@@ -23,19 +23,15 @@ test("Set license permissions", async ({ InternalLoggedInPage }) => {
   const page = InternalLoggedInPage;
   for (const licenseType of licenseTypes) {
     const permissions = JSON.parse(
-      readFileSync(`us-license-permissions-${licenseType}.json`, "utf-8")
+      readFileSync(`permissions/us-license-permissions-${licenseType}.json`, "utf-8")
     );
 
     await page.goto(licensePermissionsPageUrl);
     await page.getByRole("combobox", { name: "View License:" }).selectOption(licenseType);
-
-    const selectedLicense = page
-      .getByRole("combobox", { name: "View License:" })
-      .locator("option", { hasText: licenseType });
-    await expect(selectedLicense).toHaveAttribute("selected", "selected");
-
     // eslint-disable-next-line playwright/no-networkidle
     await page.waitForLoadState("networkidle");
+    const selectedLicense = page.getByRole("option", { name: licenseType, exact: true });
+    await expect(selectedLicense).toHaveAttribute("selected", "selected");
     const rows = page.locator("form table tbody tr");
     const rowCount = await rows.count();
     console.log(`${licenseType} # of permissions: ${rowCount}`);

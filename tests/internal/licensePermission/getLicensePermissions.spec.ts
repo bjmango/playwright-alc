@@ -1,4 +1,4 @@
-import { test } from "../../fixtures/loggedInInternal.fixture";
+import { test, expect } from "../../fixtures/loggedInInternal.fixture";
 import { loadEnvConfig } from "../../../config/loadEnv";
 import { writeFileSync } from "fs";
 
@@ -7,9 +7,9 @@ const username = envConfig.internalToolAccount?.email || "";
 const password = process.env.DEFAULT_PASSWORD || "123qweASD";
 const licensePermissionsPageUrl = envConfig.internalToolAccount?.licensePermissionsPageUrl || "";
 const licenseTypes = [
-  // "Collaborator",
-  // "Professional",
-  // "Full Access",
+  "Collaborator",
+  "Professional",
+  "Full Access",
   "Stakeholder",
   "Full Access - Alchemer Workflow",
   "Professional - Alchemer Workflow",
@@ -23,12 +23,14 @@ test("Get license permissions", async ({ InternalLoggedInPage }) => {
   for (const licenseType of licenseTypes) {
     await page.goto(licensePermissionsPageUrl);
     await page.getByRole("combobox", { name: "View License:" }).selectOption(licenseType);
-
     // eslint-disable-next-line playwright/no-networkidle
     await page.waitForLoadState("networkidle");
+    const selectedLicense = page.getByRole("option", { name: licenseType, exact: true });
+    await expect(selectedLicense).toHaveAttribute("selected", "selected");
+
     const rows = page.locator("form table tbody tr");
     const rowCount = await rows.count();
-    console.log(`${licenseTypes} # of permissions: ${rowCount}`);
+    console.log(`${licenseType} # of permissions: ${rowCount}`);
     const results = [];
 
     for (let i = 1; i < rowCount; i++) {
@@ -48,7 +50,7 @@ test("Get license permissions", async ({ InternalLoggedInPage }) => {
     }
 
     writeFileSync(
-      `${process.env.TEST_ENV}-license-permissions-${licenseType}.json`,
+      `permissions/${process.env.TEST_ENV}-license-permissions-${licenseType}.json`,
       JSON.stringify(results, null, 2)
     );
 

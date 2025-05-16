@@ -1,0 +1,2730 @@
+[
+  {
+    "feature": "ACCOUNT>ADMIN",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>APISECURITY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>AUDITREPORT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>BADDATA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>CAN_OVERRIDE_EMAIL_FROM",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>CONFIGURATOR",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>CUSTOMAPPS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>CUSTOMIZEAPPTHEME",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>CUSTOMIZEAPPTHEME>ADVANCED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>CUSTOMREPORTING",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>CUSTOMSMTP",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>DELETE",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>DEVTOOLKIT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>ENTERPRISETHEME",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>FILE_SECURITY_LOCKED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>INTEGRATIONS",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>INVOICES",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>LMS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>MODERNTHEME",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>NOCLEAN",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>NPSEMAIL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>PHONESUPPORT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>PRIVATEDOMAIN",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>PRIVATEDOMAIN>FORCE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>PROJECT>ENCRYPTION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>RESELLER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>SAML",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>SECURITY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>SECURITY>ANONYMOUS_SURVEYS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>SECURITY>DATA_RETENTION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>SECURITY>MULTIFACTORAUTH",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>SECURITY>SMSAUTH",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>SITEINTERCEPT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>SPONSERED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>SUBDOMAINQUOTA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>USERDATAFILTER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACCOUNT>WEBHOOK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>CAPTCHA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>CHART",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>EMAILACTION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>EMAILACTION>HTMLVERSION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>EMAILACTION>PDFENCRYPT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>EXACTTARGET",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>GOOGLE>SPREADSHEET",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>HIDDENVALUE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>HIDDENVALUE>CALCULATED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>HTTP>FIELDCOUNT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>HTTPINSERT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>HUBSPOT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>INFUSIONSOFT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>JAVASCRIPT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>LMSCONNECT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>LOGINPASSWORD",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>MAILCHIMP",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>MICROSOFTDYNAMICS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>MICROSOFTTEAMS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>PAGELOGIC",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>PAYMENT>METADATA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>PERCENTBRANCH",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>PORTAL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>POWERBI",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>QUIZSCORE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>QUIZTALLY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>REVIEW",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>SALESFORCE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>SCRIPT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>SECTIONNAV",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>SLACK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>TABLEAU",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ACTION>URLREDIRECT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ADMIN>QUESTIONS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "ALLOW_CUSTOM_THEME",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "API",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "API>ACCESS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "API>HIDE_BRANDING",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "API>OEM",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "API>OEM_PRODUCTION_KEY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "API>OEM_TEST_KEY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "API>REQUESTSPERMIN",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "BLOCK_EMAIL_CAMPAIGN_SENDS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "BLOCK_SMS_CAMPAIGN_SENDS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "COMMUNITY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "CONTACTS>ISMANAGER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "CONTSUM>REPORTING",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "DAN>RESETDATABASE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "DASHBOARD_ADVANCED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "DASHBOARD_STANDARD",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "EMAILCAMPAIGN>AUTOMAGICALLY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "EMAILCAMPAIGN>CANSPAMADDRESS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "EMAILCAMPAIGN>NOLINK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "EMAILCAMPAIGN>NOTAUTHORIZED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "EMAILS/MONTH",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "EVERYONE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "EXPORT",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "FOLDERS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "FORMS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INSIGHTSDASHBOARD",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>ACCESS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>AIRTABLE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>ASANA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>BIGCOMMERCE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>BIGQUERY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>BRAZE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>CUSTOMWEBHOOKS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>DATABRICKS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>DOCUSIGN",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>DOMO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>FUELCYCLE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>GLADLY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>GOOGLESHEETS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>GORGIAS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>GREENHOUSE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>HUBSPOT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>ICIMS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>ITERABLE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>JIRA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>KENTICO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>KLAVIYO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>KUSTOMER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>MARKETO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>MICROSTRATEGY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>MONDAY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>MSDYNAMICS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>MSFABRIC",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>OFFICE365",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>ORACLECLOUD",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>PAYLOCITY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>PEOPLESOFT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>POWERBI",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>PROTOTYPE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>RINGCENTRAL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>SALESFORCE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>SALESFORCE_QA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>SERVICENOW",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>SHOPIFY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>SLACK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>SNOWFLAKE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>TABLEAU",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>TANGO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>TREMENDOUS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>TRUSTPILOT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>TWILIO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>UKG",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>UNANET",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>WORKDAY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>ZENDESK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATION>ZOHOSIGN",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INTEGRATIONS>ADMIN",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "INVITES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LIBRARY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LIBRARY>FILE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LIBRARY>FILESANDIMAGES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LIBRARY>QUESTION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LIBRARY>QUESTION>LINKING",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LIBRARY>THEME",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LINK>FORCESSL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LOOKANDFEEL>CUSTOMTHANKYOU",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LOOKANDFEEL>HIDEQUESTIONNUMBERING",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LOOKANDFEEL>HIDEQUESTIONTITLES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "LOOKANDFEEL>POWEREDBY",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "LOOKANDFEEL>POWEREDBY>OPTIONAL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "MOBILE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PACKAGE>360",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PACKAGE>360>NEWMEASURES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PAGE>PAGELOGIC",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PAGE>SHOWHIDE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PAGELOGIC>ADDCONDITION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PAGELOGIC>ADDGROUP",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PAGELOGIC>DISQUALIFY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PIPING>LISTOFTEXTBOXES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "POLLS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>360Feedback",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>ACTION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>ANONYMOUSDATA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>AUTOCLOSE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>BULKEDIT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>CLEARLINKCACHE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>CREATE>WORDIMPORT",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>CUSTOMIZE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>DECORATIVE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>DECORATIVE>VIDEOAUDIO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>DISTRIBUTEDQUOTA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>DOWNLOADTOWORDPDF",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>GEODATA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>GOOGLEANALYTICS",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>IMPORTTOOLS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>LOGIC",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>MULTIPAGE",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>OPTION>LIMIT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>PANEL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>PAYMENTFORM",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>PIPING",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>PORTAL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>PROGRAMMERDRAFT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>QUESTIONBASED>QUOTAS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>QUESTIONNUMBERING",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>QUOTAS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>SENTIMENT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>TEMPLATES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>TEMPLATES>STANDARD",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>TESTDATA",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>THEME",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>TRANSLATE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROJECT>VOTEPROTECTION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROMOTE>EMAILCAMPAIGN",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROMOTE>KIOSK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PROMOTE>QRCODE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PUBLISH",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "PUBLISH>BRANDEDSUBDOMAIN",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PUBLISH>PRIVATEDOMAIN",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PUBLISH>PRIVATEDOMAIN>SECURELINK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PUBLISH>SECURELINK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PUBLISH>SHORTURL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "PULSE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>ADVANCEDTYPE",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>BASIC",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>CARDSORTADVANCED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>CARDSORTBASIC",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>CASCADINGDROPDOWNS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>CONJOINT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>CONJOINT_NEW",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>CUSTOMGROUP",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>CUSTOMTABLE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>FILEUPLOAD",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>FILEUPLOAD>LIMITED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>IDENTIFY>USEREDIS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>IMAGEFEEDBACK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>IMAGEHEATMAP",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>INDIASTATES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>KEYCODES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>LAYOUT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>LAYOUT>ORIENTATION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>MAXDIFF",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>MULTIIMAGE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>REACTION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>REPORTINGVALUES",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>SEMANTIC",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>SHOWHIDECONTROLS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>SINGLEIMAGE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>TEXTHIGHLIGHTER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>VALIDATION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>VALIDATION>ADVANCED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>VALIDATION>FORMATTING",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>VALIDATION>SOFTREQUIRE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>VIDEOFEEDBACK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUESTION>VIDEOFEEDBACK>MINUTES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "QUIZZES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REMOVE_DEMO_TRIAL_BANNER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>ADVANCEDEXPORT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>AUTOMATICDELIVERY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>AUTOMATICDELIVERY>FTP",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>CROSSTAB",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>CSVEXCELEXPORT",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>CUSTOMIZE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>ELEMENT>FILTER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>FILTER>PARITALS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>MATRIX",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>MATRIX>CALCULATION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORT>MATRIX>CATEGORY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>ADVANCED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>COMBINED_SUMMARY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>CROSSTAB>GROUPING_NESTING",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>CROSS_SURVEY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>CROSS_SURVEY>ACCESS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>CUSTOM>CSS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>CUSTOM>JS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>DIYGRID",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>EDIT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>FILTER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>HANSOLO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>JSEMBED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>LONGITUDINAL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>PROFILE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>RSCRIPT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>SEGMENTATION",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>SHAREDREPORT>PASSWORDPROTECTED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>SHAREDREPORT>PRIVATE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>SPSS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>STANDARDREPORT",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>STANDARDREPORT>LOGGEDINSHARE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>STYLE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>SUMMARY",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "REPORTS>TOPBOXING",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "RESPONSES",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "99999999"
+  },
+  {
+    "feature": "RESPONSES>DOWNLOAD>PDF",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "RESPONSES>INDIVIDUALRESPONSES",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "RESPONSES>INDIVIDUALRESPONSES>ADVANCED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "RESPONSES>INDIVIDUALRESPONSES>CONVERTPARTIAL",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "RESPONSES>TIMESERIES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "RESULTS",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "SENTIMENT_ANALYSIS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SHARE>ADVANCED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SHARE>CINT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SHARE>EMBED",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SHARE>OFFLINE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SHARE>PAGE_COMPLETION_CHART",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SHARE>QUICKAUDIENCE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SHARE>SOCIALMEDIA",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SMS/END_TIME",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SMS/SENDS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SMS/START_TIME",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SUPPORT>STANDARD_EMAIL",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SUPPORT>STANDARD_PHONE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYPROTECTION>AUTOCLOSEDATE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYPROTECTION>COOKIE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYPROTECTION>IP",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYPROTECTION>RANDOMIZE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYPROTECTION>SAVEANDCONTINUE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYPROTECTION>SSO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYS",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYS>LAUNCH",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYS>V2LOGIC",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEYSETTINGS>QUESTIONCATEGORIES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "SURVEY_AUDIENCE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "TEAMS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "TEAMS>ROLES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "THEMES>CUSTOM",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "THEMES>MULTI>LINKS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "THEMES>MULTI>MOBILE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "THEMES>OLD",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "THEMES>STANDARD",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "TRANSFER>SURVEY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "TRANSLATION>ADDLANGUAGE",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "USER>HANSOLO",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "USER>INTEGRATION_MANAGER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "USER>PERMISSIONS",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "USER>PERMISSIONS>DATAFILTER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "USER>PERMISSIONS>MODIFYPROJECTONLY",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "0"
+  },
+  {
+    "feature": "USER>PERMISSIONS>PERMANENTLY_DELETE_RESPONSES",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "USER>PERMISSIONS>PROJECT_DRP",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "USER>PERMISSIONS>QUESTIONLIBRARY",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "USER>PHONESUPPORT",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "USERS",
+    "read": true,
+    "write": true,
+    "delete": true,
+    "run": true,
+    "quota": "1"
+  },
+  {
+    "feature": "USERS>ADMINS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "USERS>COLLAB",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "VALKILMER",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "WEBHOOK",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  },
+  {
+    "feature": "WORKFLOWS",
+    "read": false,
+    "write": false,
+    "delete": false,
+    "run": false,
+    "quota": "0"
+  }
+]

@@ -9,7 +9,7 @@ export default defineConfig({
   retries: process.env.CI ? 2 : 0,
   workers: process.env.CI ? 1 : undefined,
   reporter: "html",
-  timeout: 800_000,
+  timeout: 600_000,
   use: {
     baseURL: typeof envConfig.baseUrl === "string" ? envConfig.baseUrl : undefined,
     trace: "on-first-retry",
