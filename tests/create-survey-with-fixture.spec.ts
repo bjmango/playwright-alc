@@ -13,7 +13,7 @@ const surveyName = "MCP create a simple survey";
 // Define the custom test with login credentials
 const test = baseTest.extend({
   username: async ({ envConfig }, use) => {
-    await use(envConfig.applicationManagedAccounts.mainAccount.email);
+    await use(envConfig.applicationManagedAccounts.mainAccount.email ?? "");
   },
   password: async ({}, use) => {
     await use("123qweASD");
