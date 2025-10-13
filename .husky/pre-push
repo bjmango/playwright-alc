@@ -26,7 +26,7 @@ if [ $? -ne 0 ]; then
   echo "${YELLOW}Fix linting errors before pushing.${NC}"
   exit 1
 fi
-echo "${GREEN}✅ ESLint check passed${NC}"
+echo "${GREEN}✅ ESLint check passed${NC}" 
 
 echo "${GREEN}All pre-push checks passed! 🚀${NC}"
 exit 0
