@@ -1,13 +1,18 @@
-// simple test verify the user can login to the application
-import { createTest, expect } from './fixtures/loggedIn.fixture';
+import { expect } from '@playwright/test';
+import { test } from './base';
 
-const test = createTest('mainAccount');
+/**
+ * Override the user here to test with a specific user in test level.
+ * test.use({
+ *   user: { email: 'cypressRolesDowngrade@sgizmo.com', password: process.env.DEFAULT_PASSWORD || '' },
+ * });
+ */
 
-test('simple test to verify login', async ({ page, loginEmail, password }) => {
-  await page.goto('/');
-  await page.getByRole('textbox', { name: 'Email' }).fill(loginEmail);
-  await page.getByRole('button', { name: 'Continue' }).click();
-  await page.getByRole('textbox', { name: '••••••••' }).fill(password);
-  await page.getByRole('button', { name: 'Log In' }).click();
-  await expect(page).toHaveTitle(/Alchemer - Dashboard/);
+test('Simple test to verify login', async ({ pm, user }) => {
+  await pm.onLoginSpaPage().goto();
+  await pm.onLoginSpaPage().typeInEmail(user.email);
+  await pm.onLegacyLoginPage().legacyLogin(user.password);
+
+  const title = await pm.onDashboardPage().title();
+  expect(title).toBe('Alchemer - Dashboard');
 });
