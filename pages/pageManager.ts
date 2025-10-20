@@ -4,16 +4,16 @@ import { LegacyLoginPage } from './loginLegacy.page';
 import { DashboardPage } from './dashboard.page';
 
 export class PageManager {
-  private page: Page;
-  private loginSpaPage: LoginSpaPage;
-  private legacyLoginPage: LegacyLoginPage;
-  private dashboardPage: DashboardPage;
+  private readonly page: Page;
+  private readonly loginSpaPage: LoginSpaPage;
+  private readonly legacyLoginPage: LegacyLoginPage;
+  private readonly dashboardPage: DashboardPage;
 
   constructor(page: Page) {
     this.page = page;
-    this.loginSpaPage = new LoginSpaPage(page);
-    this.legacyLoginPage = new LegacyLoginPage(page);
-    this.dashboardPage = new DashboardPage(page);
+    this.loginSpaPage = new LoginSpaPage(this.page);
+    this.legacyLoginPage = new LegacyLoginPage(this.page);
+    this.dashboardPage = new DashboardPage(this.page);
   }
 
   onLoginSpaPage(): LoginSpaPage {
