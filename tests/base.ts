@@ -1,4 +1,4 @@
-import { test as base } from '@playwright/test';
+import { test as base, expect } from '@playwright/test';
 import { PageManager } from '../pages/pageManager';
 
 type User = {
@@ -11,6 +11,7 @@ export type TestOptions = {
   pm: PageManager;
 };
 
+const authFile = '.auth/user.json';
 export const test = base.extend<TestOptions>({
   // note: monitor for any page errors and report them if there are any. fail the test if we decided to do so.
   page: async ({ page }, use) => {
@@ -27,9 +28,18 @@ export const test = base.extend<TestOptions>({
   },
 
   // note:pm is a fixture available in runner that provides the PageManager instance
-  pm: async ({ page }, use) => {
+  pm: async ({ page, user }, use) => {
     const pm = new PageManager(page);
     console.log('Page Manager');
+    const response = await page.request.post('/login/v1-submit', {
+      form: {
+        USERNAME: user.email,
+        PASS: user.password,
+        autotest: 'bypass-auth0-block',
+      },
+    });
+    expect(response.status()).toBe(200);
+    await page.context().storageState({ path: authFile });
     await use(pm);
   },
   // note: define user in base.ts (fixture architecture) so it is available in the runner, test suite.

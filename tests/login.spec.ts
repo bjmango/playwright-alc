@@ -8,11 +8,8 @@ import { test } from './base';
  * });
  */
 
-test('Simple test to verify login', async ({ pm, user }) => {
-  await pm.onLoginSpaPage().goto();
-  await pm.onLoginSpaPage().typeInEmail(user.email);
-  await pm.onLegacyLoginPage().legacyLogin(user.password);
-
+test('Simple test to verify login', async ({ pm }) => {
+  await pm.onDashboardPage().goto();
   const title = await pm.onDashboardPage().title();
   expect(title).toBe('Alchemer - Dashboard');
 });

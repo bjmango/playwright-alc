@@ -14,8 +14,9 @@ export class LegacyLoginPage extends HelpBase {
   }
 
   async legacyLogin(password: string): Promise<void> {
+    const emailValue = await this.userEmail.inputValue();
     await this.passwordInput.fill(password);
-    console.log(`legacy login call with ${this.userEmail} and ${password}`);
+    console.log(`legacy login call with ${emailValue}`);
     await this.loginButton.click();
     await this.waitForNetworkIdle();
   }
