@@ -1,5 +1,5 @@
 import { test as base, expect } from '@playwright/test';
-import { PageManager } from '../pages/pageManager';
+import { PageManager } from '../pages/page-manager';
 
 type User = {
   email: string;
