@@ -1,5 +1,5 @@
 import { Locator, Page } from '@playwright/test';
-import { HelpBase } from 'utils/helpBase';
+import { HelpBase } from 'utils/help-base';
 
 export class LoginSpaPage extends HelpBase {
   private readonly emailInput: Locator;
