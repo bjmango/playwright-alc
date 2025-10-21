@@ -19,18 +19,19 @@ export const test = base.extend<TestOptions>({
     page.on('pageerror', err => {
       errors.push(err);
     });
-    console.log('page');
+    console.log('base.ts fixture: page');
     await use(page);
-    // check if there were any errors during the test
-    if (errors.length > 0) {
-      throw new Error(errors.map(e => e.message).join('\n'));
+    // check if there were any errors during the test, ignore the error if it is walkme related
+    const filteredErrors = errors.filter(e => !e.message.includes('walkme'));
+    if (filteredErrors.length > 0) {
+      throw new Error(filteredErrors.map(e => e.message).join('\n'));
     }
   },
 
   // note:pm is a fixture available in runner that provides the PageManager instance
   pm: async ({ page, user }, use) => {
     const pm = new PageManager(page);
-    console.log('Page Manager');
+    console.log('base.ts fixture: Page Manager');
     const response = await page.request.post('/login/v1-submit', {
       form: {
         USERNAME: user.email,
