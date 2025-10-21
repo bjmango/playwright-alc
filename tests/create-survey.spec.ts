@@ -1,5 +1,5 @@
 import { expect } from '@playwright/test';
-import { test } from './base';
+import { test } from '../fixtures/base';
 
 /**
  * Override the user here to test with a specific user in test level.
